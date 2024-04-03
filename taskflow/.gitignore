@@ -1,0 +1,51 @@
+# Dart/Pub related
+.dart_tool/
+.packages
+.pub-cache/
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+
+# Flutter build outputs
+build/
+ios/Flutter/.symlinks/
+ios/Pods/
+linux/flutter/ephemeral/
+macos/Flutter/ephemeral/
+windows/flutter/ephemeral/
+
+# Android Studio/IntelliJ related
+.idea/
+.vscode/
+
+# macOS & Linux hidden files
+.DS_Store
+*.swp
+*.lock
+*.log
+
+# Web-related
+web/.dart_tool/
+web/build/
+
+# Firebase/Google service files (add to .gitignore if not public or handled through secrets)
+# android/app/google-services.json
+# ios/Runner/GoogleService-Info.plist
+
+# Git
+*.iml
+
+# Flutter build outputs (alternative locations)
+**/doc/api/
+**/ios/Flutter/.last_build_id
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android build artifacts
+/android/app/debug
+/android/app/profile
+/android/app/release
